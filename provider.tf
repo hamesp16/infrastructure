@@ -1,6 +1,4 @@
-provider "heroku" {
-  version = "2.2.0"
-}
+provider "heroku" {}
 
 terraform {
   backend "s3" {
