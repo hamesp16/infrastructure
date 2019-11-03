@@ -1,6 +1,6 @@
 # Variables
 variable "app_prefix" {
-  default = "unique-app-name"
+  default = "unique-appl-name"
 }
 
 variable "pipeline_name" {
