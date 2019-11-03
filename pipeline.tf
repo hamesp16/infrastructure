@@ -1,4 +1,4 @@
-# Pipeline
+# Pipelines
 resource "heroku_pipeline" "test-app" {
   name = "${var.pipeline_name}"
 }
