@@ -5,7 +5,7 @@ provider "heroku" {
 terraform {
   backend "s3" {
     bucket = "pgr301bucket"
-    key    = "<unik_id>/terraform.tfstate"
+    key    = "examenpamen/terraform.tfstate"
     region = "eu-north-1"
   }
 }
