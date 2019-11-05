@@ -1,9 +1,8 @@
-# Pipelines
+# Couple apps to different pipeline stages
 resource "heroku_pipeline" "test-app" {
   name = "${var.pipeline_name}"
 }
 
-# Couple apps to different pipeline stages
 resource "heroku_pipeline_coupling" "ci" {
   app      = "${heroku_app.ci.name}"
   pipeline = "${heroku_pipeline.test-app.id}"
