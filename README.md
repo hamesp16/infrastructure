@@ -1,3 +1,6 @@
+## PGR301 - Infrastructure
+Infrastructure for exam in class PGR301 at Kristiania University College as seen at [https://github.com/pgr301-2019/labguide/blob/master/eksamen.md].
+
 Application repository: https://github.com/anonymelev/application
 
 Push this repository before pushing the application repository.
